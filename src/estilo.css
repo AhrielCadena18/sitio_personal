@@ -8,24 +8,20 @@
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
 }
-
 :root{
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
     --main-color: #00ffee;
 }
-
 html{
     font-size: 60%;
     overflow: hidden;
 }
-
 body{
     background: var(--bg-color);
     color: var(--text-color);
 }
-
 .header{
     position: fixed;
     top: 0;
@@ -39,7 +35,6 @@ body{
     align-items: center;
     z-index: 5;
 }
-
 .logo{
     font-size: 3rem;
     color: var(--text-color);
@@ -47,14 +42,12 @@ body{
     cursor: pointer;
     transition: 0.3s ease;
 }
-
 .logo:hover{
     transform: scale(1.1);
 }
 .logo span{
     text-shadow: 0 0 25px var(--main-color);
 }
-
 .navbar a{
     font-size: 1.8rem;
     color: var(--text-color);
@@ -68,7 +61,6 @@ body{
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
-
 #menu-icon{
     font-size: 3.6rem;
     color: var(--main-color);
@@ -120,13 +112,11 @@ span{
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
-
 .home-img img:hover{
     box-shadow: 0 0 25px var(--main-color),
                 0 0 50px var(--main-color),
                 0 0 100px var(--main-color);
 }
-
 .home-content p{
     font-size: 1.5rem;
     font-weight: 500;
@@ -152,7 +142,6 @@ span{
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
 }
-
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -181,11 +170,235 @@ span{
     border: 2px solid var(--main-color);
     box-shadow: 0 0 25px var(--main-color) transparent;
 }
-
 .btn-group a:nth-of-type(2):hover{
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
     color: black;
 }
 
+/* GUSTOS */
+.gustos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+.gustos-content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.gustos-content h3{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+.gustos-content h1{
+    font-size: 7rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+.gustos-img{
+    border-radius: 50%;
+}
+.gustos-img img{
+    position: relative;
+    top: 3rem;
+    width: 32vw;
+    height: 600px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.gustos-img img:hover{
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color),
+                0 0 100px var(--main-color);
+}
+.gustos-content p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 10000px;
+}
+.btn1-2, .btn2-2{
+    display: inline-block;
+    padding: 16px 44.8px;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    font-size: 1.5rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn1-2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px var(--main-color);
+}
+.btn-group2{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.btn-group2 a:nth-of-type(2){
+    background-color: black;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px var(--main-color) transparent;
+}
+.btn-group2 a:nth-of-type(2):hover{
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+    color: black;
+}
 
+/* CULTURALES */
+.cultura{
+    align-items: center;
+    justify-content: center;
+}
+.cultura-content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: center;
+    margin-top: 3rem;
+}
+.cultura-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+.contenido{
+    border-radius: 50px;
+}
+.contenido img{
+    position: relative;
+    top: 3rem;
+    width: 200px;
+    height: 350px;
+    border-radius: 50px;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.contenido img:hover{
+    box-shadow: 0 0 25px var(--main-color),
+    0 0 50px var(--main-color),
+    0 0 100px var(--main-color);
+}
+.cultura-content p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 10000px;
+}
+.contenido{
+    display: flex;
+    gap: 50px;
+}
+.btn3-1{
+    display: inline-block;
+    padding: 16px 44.8px;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    font-size: 1.5rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn3-1{
+    background-color: black;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px var(--main-color) transparent;
+}
+.btn3-1:hover{
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+    color: black;
+}
+
+/* MUSICA */
+
+.musica{
+    align-items: center;
+    justify-content: center;
+}
+.musica-content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: center;
+    margin-top: 3rem;
+}
+.musica-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+.contenido{
+    border-radius: 50px;
+}
+.contenido img{
+    position: relative;
+    top: 3rem;
+    width: 200px;
+    height: 350px;
+    border-radius: 50px;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.contenido img:hover{
+    box-shadow: 0 0 25px var(--main-color),
+    0 0 50px var(--main-color),
+    0 0 100px var(--main-color);
+}
+.musica-content p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 10000px;
+}
+.contenido{
+    display: flex;
+    gap: 50px;
+}
+.btn4-1{
+    display: inline-block;
+    padding: 16px 44.8px;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    font-size: 1.5rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn4-1{
+    background-color: black;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px var(--main-color) transparent;
+}
+.btn4-1:hover{
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+    color: black;
+}
