@@ -4,28 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentacion Personal</title>
+    <link rel="stylesheet" href="/src/estilo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div>
-        <h1>Sitio Personal</h1>
-        <h2>Pagina de Ahriel Cadena Garcia</h2>
-        <h3>Soy Ahriel estudio la carrera de diseño digital <br> algo que me caracterisa 
-            mucho es mi amor por los gatos y mi nombre <br>
-            ya que tiene una inusual "h" intermedia, algo mas que pudo decir<br>
-            es que me gusta mucho fotografiar paisajes y animales.</h3>   
-    </div>
-    <nav>
-        <ul>
-            <li>
-                <a href="/carpetagustos/gustos.html">Descubre mis gustos</a>
-            </li>
-            <li>
-                <a href="/carpetahobbies/hobbies.html">Descubre mis hobbies</a>
-            </li>
-            <li>
-                <a href="/carpetainfo/info.html">Conoce mas de mi</a>
-            </li>
-        </ul>
-    </nav>
+    <header class="header">
+        <a href="#home" class="logo">Sitio
+            <span>Personal</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="/src/carpetagustos/gustos.html">Gustos</a>
+            <a href="/src/carpetahobbies/hobbies.html">Hobbies</a>
+            <a href="/src/carpetainfo/info.html">Informacion personal</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hola, soy <span>Ahriel</span></h1>
+            <h3 class="text-animation">Soy <span></span></h3>
+            <p>Estudio la carrera de diseño digital algo que me caracterisa 
+                mucho es mi amor por los gatos y mi nombre
+                ya que tiene una inusual "h" intermedia, algo mas que pudo decir
+                es que me gusta mucho fotografiar paisajes y animales.</p>
+
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                </div>
+
+                <div class="btn-group">
+                    <a href="" class="btn">Hire</a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+            </div>
+                <div class="home-img">
+                    <img src="/src/imagenes/_.jpeg" alt="imagen">
+                </div>
+    </section>
 </body>
 </html>
