@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/src/estilo.css">
 </head>
 <body>
-    <h1>Informacion Personal</h1>
-    <h3>Aca puedes descubrir sobre mi familia, amigues y <br>
-    mascotas.</h3>
+    <header class="header">
+        <a href="#home" class="logo">Sitio
+            <span>Personal</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="/src/presentacion.html">Home</a>
+            <a href="/src/carpetagustos/gustos.html" >Gustos</a>
+            <a href="/src/carpetahobbies/hobbies.html">Hobbies</a>
+            <a href="" class="active">Informacion personal</a>
+        </nav>
+    </header>
+
+    <section class="info" id="home">
+        <div class="info-content">
+            <h1>Informacion<span> Personal</span></h1>
+            <p>Aca puedes descubrir sobre mi familia, amigues y <br>
+                mascotas.<br><br> </p>
+
+            <div class="btn-group5">
+                <a href="/src/carpetainfo/familia.html" class="btn5-1">Familia</a>
+                <a href="/src/carpetainfo/amigos.html" class="btn5-2">Amigos</a>
+                <a href="/src/carpetainfo/mascotas.html" class="btn5-3">Mascotas</a>
+            </div>
+        </div>
+        <div class="info-img">
+            <img src="/src/imagenes/gustos.jpeg" alt="imagen">
+        </div>
+    </section>
 </body>
-<nav>
-    <ul>
-        <li>
-            <a href="/carpetainfo/familia.html">Familia</a>
-        </li>
-        <li>
-            <a href="/carpetainfo/mascotas.html">Mascotas</a>
-        </li>
-        <li>
-            <a href="/carpetainfo/amigos.html">Amigues</a>
-        </li>
-        <li>
-            <a href="../presentacion.html">Volver atras</a>
-        </li>
-    </ul>
-</nav>
 </html>

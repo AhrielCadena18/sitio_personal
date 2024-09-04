@@ -4,35 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/src/estilo.css">
 </head>
 <body>
-    <h1>Entre mis hobbies</h1>
-    <h3>No soy una persona que haga musicas catividades <br>
-        pero las que hago son:</h3>
+    <header class="header">
+        <a href="#home" class="logo">Mis
+            <span>Hobbies</span>
+        </a>
 
-    <ul>
-        <li>
-            Juego voley, es un deporte que me gusta mucho <br>
-            por el momento estoy entrenando los Lunes, Miercoles<br>
-            y Viernes en la noche.
-        </li>
-        <br>
-        <li>
-           Me encanta cocinar un poco en mis tiempos libres <br>
-           para liberar la mente.
-        </li>
-        <br>
-        <li>
-           Hago manualidades en mis tiempos libres para estresarme <br>
-           y desestresarme un poco es divertido.
-        </li>
-    </ul>
+        <nav class="navbar">
+            <a href="/src/presentacion.html">Home</a>
+            <a href="/src/carpetagustos/gustos.html">Gustos</a>
+            <a href="/src/carpetahobbies/hobbies.html" class="active">Hobbies</a>
+            <a href="/src/carpetainfo/info.html">Informacion personal</a>
+        </nav>
+    </header>
+
+    <section class="cultura" id="home">
+        <div class="cultura-content">
+            <div class="contenido">
+                <h1>Jugar<span> Voleyball</span>
+                    <img src="/src/imagenes/voleyball.jpeg" alt="">
+                    <p><br> <br> Es un deporte que me gusta mucho
+                        por el momento estoy entrenando los Lunes, Miercoles
+                        y Viernes en la noche. </p>
+                </h1>
+                <h1>Cocinar de<span> Todo</span>
+                    <img src="/src/imagenes/Cocinar.jpeg" alt="">
+                    <p><br> <br>Me gusta cocinar de todo en mis tiempos libres
+                    ya que me ayuda a desetresarme</p>
+                </h1>
+                <h1>Hacer<span> Manualidades</span>
+                    <img src="/src/imagenes/manualidades.jpeg" alt="">
+                    <p> <br> <br>En mis tiempos libres para estresarme <br>
+                        y desestresarme un poco es divertido. <br> <br> <br> <br></p>
+                </h1>
+            </div>
+
+            <div class="btn-group3">
+                <a href="/src/presentacion.html" class="btn3-1">Volver atras</a>
+            </div>
+        </div>
 </body>
-<nav>
-    <ul>
-        <li>
-            <a href="../presentacion.html">Volver atras</a>
-        </li>
-    </ul>
-</nav>
 </html>
