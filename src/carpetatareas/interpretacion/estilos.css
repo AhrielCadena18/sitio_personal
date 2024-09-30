@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: white;
+    --main-color: #00ffee;
+}
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    max-width: 100%;
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serifß;
+}
+.header{
+    margin: 40px 70px;
+}
+.logo {
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.logo span {
+    text-shadow: 0 0 25px var(--main-color);
+}
+.header a{
+    font-size: 20px;
+    text-decoration: none;
+}
+span {
+    color: var(--main-color);
+    font-size: 20px;
+}
+.interpretacion-content{
+    margin-left: 300px 300px;
+}
+.btn3-1 {
+    display: inline-block;
+    padding: 16px 40px;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    font-size: 20px;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 790px 170px;
+}
+.btn3-1 {
+    background-color: black;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px var(--main-color) transparent;
+}
+.btn3-1:hover {
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+    color: black;
+}
+h1 span{
+    color: white;
+    font-size: 3rem;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+    color: #00ffee;
+    text-align: center;
+}
+p {
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    color: white;
+    text-align: center;
+    margin: 10px 150px;
+}
+
+/* INTERPRETACION */
+
+.grilla {
+    display: grid;
+    width: 20px;
+    height: 20px;
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    margin: 40px 300px;
+    margin-bottom: 150px;
+    gap: 5px;
+}
+
+.grilla div {
+    background-color: black; /* Color base */
+    padding: 20px;
+}
+
+/* ROSADOS */
+.grilla div:nth-child(32),
+.grilla div:nth-child(33),
+.grilla div:nth-child(34),
+.grilla div:nth-child(35),
+.grilla div:nth-child(36),
+.grilla div:nth-child(50),
+.grilla div:nth-child(51),
+.grilla div:nth-child(52),
+.grilla div:nth-child(53),
+.grilla div:nth-child(54),
+.grilla div:nth-child(55),
+.grilla div:nth-child(56),
+.grilla div:nth-child(57),
+.grilla div:nth-child(67),
+.grilla div:nth-child(68),
+.grilla div:nth-child(69),
+.grilla div:nth-child(70),
+.grilla div:nth-child(71),
+.grilla div:nth-child(72),
+.grilla div:nth-child(73),
+.grilla div:nth-child(74),
+.grilla div:nth-child(75),
+.grilla div:nth-child(76),
+.grilla div:nth-child(85),
+.grilla div:nth-child(86),
+.grilla div:nth-child(87),
+.grilla div:nth-child(88),
+.grilla div:nth-child(89),
+.grilla div:nth-child(94),
+.grilla div:nth-child(95),
+.grilla div:nth-child(103),
+.grilla div:nth-child(104),
+.grilla div:nth-child(105),
+.grilla div:nth-child(106),
+.grilla div:nth-child(122),
+.grilla div:nth-child(123),
+.grilla div:nth-child(133),
+.grilla div:nth-child(140),
+.grilla div:nth-child(141),
+.grilla div:nth-child(142),
+.grilla div:nth-child(160),
+.grilla div:nth-child(161),
+.grilla div:nth-child(179),
+.grilla div:nth-child(180),
+.grilla div:nth-child(322),
+.grilla div:nth-child(323),
+.grilla div:nth-child(340),
+.grilla div:nth-child(341),
+.grilla div:nth-child(342),
+.grilla div:nth-child(358),
+.grilla div:nth-child(359),
+.grilla div:nth-child(360),
+.grilla div:nth-child(361) {
+    background: #00ffee;
+}
+
+
+
+.grilla div:nth-child(144),
+.grilla div:nth-child(145),
+.grilla div:nth-child(153),
+.grilla div:nth-child(162),
+.grilla div:nth-child(166),
+.grilla div:nth-child(185),
+.grilla div:nth-child(186),
+.grilla div:nth-child(203),
+.grilla div:nth-child(204),
+.grilla div:nth-child(205),
+.grilla div:nth-child(210),
+.grilla div:nth-child(223),
+.grilla div:nth-child(224),
+.grilla div:nth-child(229),
+.grilla div:nth-child(242),
+.grilla div:nth-child(243),
+.grilla div:nth-child(248),
+.grilla div:nth-child(249),
+.grilla div:nth-child(259),
+.grilla div:nth-child(260),
+.grilla div:nth-child(261),
+.grilla div:nth-child(267),
+.grilla div:nth-child(270),
+.grilla div:nth-child(276),
+.grilla div:nth-child(277),
+.grilla div:nth-child(278),
+.grilla div:nth-child(279),
+.grilla div:nth-child(286),
+.grilla div:nth-child(289),
+.grilla div:nth-child(290),
+.grilla div:nth-child(292),
+.grilla div:nth-child(293),
+.grilla div:nth-child(295),
+.grilla div:nth-child(296),
+.grilla div:nth-child(297),
+.grilla div:nth-child(298),
+.grilla div:nth-child(305),
+.grilla div:nth-child(306),
+.grilla div:nth-child(313),
+.grilla div:nth-child(314),
+.grilla div:nth-child(315),
+.grilla div:nth-child(326),
+.grilla div:nth-child(327),
+.grilla div:nth-child(328),
+.grilla div:nth-child(329),
+.grilla div:nth-child(330),
+.grilla div:nth-child(331),
+.grilla div:nth-child(332),
+.grilla div:nth-child(333) {
+    background: #ff073a;
+}
+
+.grilla div:nth-child(125),
+.grilla div:nth-child(126),
+.grilla div:nth-child(127),
+.grilla div:nth-child(128),
+.grilla div:nth-child(143),
+.grilla div:nth-child(146),
+.grilla div:nth-child(147),
+.grilla div:nth-child(148),
+.grilla div:nth-child(149),
+.grilla div:nth-child(167),
+.grilla div:nth-child(168),
+.grilla div:nth-child(169),
+.grilla div:nth-child(187),
+.grilla div:nth-child(188),
+.grilla div:nth-child(189),
+.grilla div:nth-child(206),
+.grilla div:nth-child(207),
+.grilla div:nth-child(208),
+.grilla div:nth-child(225),
+.grilla div:nth-child(226),
+.grilla div:nth-child(227),
+.grilla div:nth-child(228),
+.grilla div:nth-child(244),
+.grilla div:nth-child(245),
+.grilla div:nth-child(262),
+.grilla div:nth-child(263),
+.grilla div:nth-child(264),
+.grilla div:nth-child(280),
+.grilla div:nth-child(281),
+.grilla div:nth-child(282),
+.grilla div:nth-child(299),
+.grilla div:nth-child(300),
+.grilla div:nth-child(316),
+.grilla div:nth-child(317),
+.grilla div:nth-child(318),
+.grilla div:nth-child(324),
+.grilla div:nth-child(325),
+.grilla div:nth-child(334),
+.grilla div:nth-child(335),
+.grilla div:nth-child(336),
+.grilla div:nth-child(344),
+.grilla div:nth-child(345),
+.grilla div:nth-child(346),
+.grilla div:nth-child(347),
+.grilla div:nth-child(348),
+.grilla div:nth-child(349),
+.grilla div:nth-child(350),
+.grilla div:nth-child(351),
+.grilla div:nth-child(352),
+.grilla div:nth-child(353) {
+    background: #ff0b8e;
+}
+
+.grilla div:nth-child(90),
+.grilla div:nth-child(91),
+.grilla div:nth-child(92),
+.grilla div:nth-child(93),
+.grilla div:nth-child(107),
+.grilla div:nth-child(108),
+.grilla div:nth-child(109),
+.grilla div:nth-child(110),
+.grilla div:nth-child(111),
+.grilla div:nth-child(112),
+.grilla div:nth-child(113),
+.grilla div:nth-child(114),
+.grilla div:nth-child(124),
+.grilla div:nth-child(129),
+.grilla div:nth-child(130),
+.grilla div:nth-child(131),
+.grilla div:nth-child(132),
+.grilla div:nth-child(149),
+.grilla div:nth-child(150),
+.grilla div:nth-child(151),
+.grilla div:nth-child(152),
+.grilla div:nth-child(170),
+.grilla div:nth-child(171),
+.grilla div:nth-child(190),
+.grilla div:nth-child(209),
+.grilla div:nth-child(246),
+.grilla div:nth-child(247),
+.grilla div:nth-child(265),
+.grilla div:nth-child(266),
+.grilla div:nth-child(283),
+.grilla div:nth-child(284),
+.grilla div:nth-child(285),
+.grilla div:nth-child(301),
+.grilla div:nth-child(302),
+.grilla div:nth-child(303),
+.grilla div:nth-child(304),
+.grilla div:nth-child(319),
+.grilla div:nth-child(320),
+.grilla div:nth-child(321),
+.grilla div:nth-child(337),
+.grilla div:nth-child(338),
+.grilla div:nth-child(339),
+.grilla div:nth-child(343),
+.grilla div:nth-child(354),
+.grilla div:nth-child(355),
+.grilla div:nth-child(356),
+.grilla div:nth-child(357) {
+    background: #8a00ff;
+}
+
+.grilla div:nth-child(1),
+.grilla div:nth-child(2),
+.grilla div:nth-child(3),
+.grilla div:nth-child(4),
+.grilla div:nth-child(5),
+.grilla div:nth-child(6),
+.grilla div:nth-child(7),
+.grilla div:nth-child(8),
+.grilla div:nth-child(20),
+.grilla div:nth-child(21),
+.grilla div:nth-child(22),
+.grilla div:nth-child(23),
+.grilla div:nth-child(24),
+.grilla div:nth-child(39),
+.grilla div:nth-child(40),
+.grilla div:nth-child(41),
+.grilla div:nth-child(42),
+.grilla div:nth-child(58),
+.grilla div:nth-child(59),
+.grilla div:nth-child(77),
+.grilla div:nth-child(78),
+.grilla div:nth-child(79),
+.grilla div:nth-child(80),
+.grilla div:nth-child(96),
+.grilla div:nth-child(115),
+.grilla div:nth-child(116),
+.grilla div:nth-child(134),
+.grilla div:nth-child(135),
+.grilla div:nth-child(154),
+.grilla div:nth-child(163),
+.grilla div:nth-child(164),
+.grilla div:nth-child(165),
+.grilla div:nth-child(172),
+.grilla div:nth-child(173),
+.grilla div:nth-child(174),
+.grilla div:nth-child(181),
+.grilla div:nth-child(182),
+.grilla div:nth-child(183),
+.grilla div:nth-child(184),
+.grilla div:nth-child(191),
+.grilla div:nth-child(192),
+.grilla div:nth-child(201),
+.grilla div:nth-child(202),
+.grilla div:nth-child(211),
+.grilla div:nth-child(212),
+.grilla div:nth-child(213),
+.grilla div:nth-child(220),
+.grilla div:nth-child(221),
+.grilla div:nth-child(222),
+.grilla div:nth-child(230),
+.grilla div:nth-child(231),
+.grilla div:nth-child(232),
+.grilla div:nth-child(233),
+.grilla div:nth-child(234),
+.grilla div:nth-child(236),
+.grilla div:nth-child(237),
+.grilla div:nth-child(239),
+.grilla div:nth-child(240),
+.grilla div:nth-child(241),
+.grilla div:nth-child(250),
+.grilla div:nth-child(251),
+.grilla div:nth-child(252),
+.grilla div:nth-child(253),
+.grilla div:nth-child(254),
+.grilla div:nth-child(255),
+.grilla div:nth-child(256),
+.grilla div:nth-child(257),
+.grilla div:nth-child(258),
+.grilla div:nth-child(268),
+.grilla div:nth-child(269),
+.grilla div:nth-child(271),
+.grilla div:nth-child(272),
+.grilla div:nth-child(273),
+.grilla div:nth-child(274),
+.grilla div:nth-child(275),
+.grilla div:nth-child(287),
+.grilla div:nth-child(288),
+.grilla div:nth-child(290),
+.grilla div:nth-child(291),
+.grilla div:nth-child(294),
+.grilla div:nth-child(307),
+.grilla div:nth-child(308),
+.grilla div:nth-child(309),
+.grilla div:nth-child(310),
+.grilla div:nth-child(311),
+.grilla div:nth-child(312) {
+    background: #ff5e00;
+}
+
+.grilla div:nth-child(9),
+.grilla div:nth-child(10),
+.grilla div:nth-child(11),
+.grilla div:nth-child(12),
+.grilla div:nth-child(13),
+.grilla div:nth-child(14),
+.grilla div:nth-child(15),
+.grilla div:nth-child(16),
+.grilla div:nth-child(17),
+.grilla div:nth-child(18),
+.grilla div:nth-child(19),
+.grilla div:nth-child(25),
+.grilla div:nth-child(26),
+.grilla div:nth-child(27),
+.grilla div:nth-child(28),
+.grilla div:nth-child(29),
+.grilla div:nth-child(30),
+.grilla div:nth-child(31),
+.grilla div:nth-child(37),
+.grilla div:nth-child(38),
+.grilla div:nth-child(43),
+.grilla div:nth-child(44),
+.grilla div:nth-child(45),
+.grilla div:nth-child(46),
+.grilla div:nth-child(47),
+.grilla div:nth-child(48),
+.grilla div:nth-child(49),
+.grilla div:nth-child(60),
+.grilla div:nth-child(61),
+.grilla div:nth-child(62),
+.grilla div:nth-child(63),
+.grilla div:nth-child(64),
+.grilla div:nth-child(65),
+.grilla div:nth-child(66),
+.grilla div:nth-child(81),
+.grilla div:nth-child(82),
+.grilla div:nth-child(83),
+.grilla div:nth-child(84),
+.grilla div:nth-child(97),
+.grilla div:nth-child(98),
+.grilla div:nth-child(99),
+.grilla div:nth-child(100),
+.grilla div:nth-child(101),
+.grilla div:nth-child(102),
+.grilla div:nth-child(117),
+.grilla div:nth-child(118),
+.grilla div:nth-child(119),
+.grilla div:nth-child(120),
+.grilla div:nth-child(121),
+.grilla div:nth-child(136),
+.grilla div:nth-child(137),
+.grilla div:nth-child(138),
+.grilla div:nth-child(139),
+.grilla div:nth-child(155),
+.grilla div:nth-child(156),
+.grilla div:nth-child(157),
+.grilla div:nth-child(158),
+.grilla div:nth-child(159),
+.grilla div:nth-child(175),
+.grilla div:nth-child(176),
+.grilla div:nth-child(177),
+.grilla div:nth-child(178),
+.grilla div:nth-child(193),
+.grilla div:nth-child(194),
+.grilla div:nth-child(195),
+.grilla div:nth-child(196),
+.grilla div:nth-child(197),
+.grilla div:nth-child(198),
+.grilla div:nth-child(199),
+.grilla div:nth-child(200),
+.grilla div:nth-child(214),
+.grilla div:nth-child(215),
+.grilla div:nth-child(216),
+.grilla div:nth-child(217),
+.grilla div:nth-child(218),
+.grilla div:nth-child(219),
+.grilla div:nth-child(235),
+.grilla div:nth-child(238) {
+    background: #e3ff00;
+}
