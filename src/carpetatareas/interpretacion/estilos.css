@@ -95,7 +95,7 @@ p {
     height: 20px;
     grid-template-columns: repeat(19, 1fr);
     grid-template-rows: repeat(25, 1fr);
-    margin: 40px 300px;
+    margin: 40px 500px;
     margin-bottom: 150px;
     gap: 5px;
 }

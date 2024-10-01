@@ -326,8 +326,8 @@ span {
    margin-top: -40px;
 }
 .musica-content h1 {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 36px;
+    font-weight: 600;
     line-height: 1;
     text-align: center;
 }
@@ -336,6 +336,9 @@ span {
     font-weight: 500;
     line-height: 1.8;
     padding: 70px 0;
+}
+.musica-content a{
+    color: var(--main-color);
 }
 .btn4-1 {
     display: inline-block;
